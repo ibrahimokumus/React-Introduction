@@ -1,12 +1,10 @@
 import Post from "./components/Post";
+import PostsList from "./components/PostsList";
 function App(){
   return(
-    <>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
-    </>
+    <main>
+      <PostsList/>
+    </main>
     );
 }
 export default App
